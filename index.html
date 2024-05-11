@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake_Game | BY DP</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- score section code start  -->
+        <div class="scoreSection">
+            <p class="score">Score : 10</p>
+            <p class="highScore">High-Score : 30</p>
+        </div>
+        <!-- score section code end  -->
+
+        <div class="board"></div>
+
+
+        <div class="controls">
+            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+        </div>
+    </div>
+
+    <!-- show result section start -->
+    <div class="showResult">
+        <h2>Game Over....!!!</h2>
+        <p>Your score</p>
+        <p class="showScore">20</p>
+        <button class="playAgainBtn" onclick="location.reload()">Play Again</button>
+    </div>
+    <!-- show result section end -->
+
+    
+</body>
+
+</html>
